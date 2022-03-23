@@ -37,6 +37,6 @@ matrix = [
     [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
 ]
 
-# for i in range(1, 33):
-#     for j in range(1, 33):
-#         matrix[i][j] = randint(0, 1)
+for i in range(1, 33):
+    for j in range(1, 33):
+        matrix[i][j] = randint(0, 1)
